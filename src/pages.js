@@ -31,20 +31,20 @@ export const Vans = ({ match }) =>
     </PageTemplate>
 
 const Horse = () =>
-    <section className="horse-vans">
-      <h1>Horse Vans</h1>
+    <section className="horse">
+      <h1>Horse Van</h1>
       <img src="img/horse-van.png" alt="horse van"/>
     </section>
 
 const StarWars = () =>
     <section className="star-wars">
-      <h1>Star Wars Vans</h1>
+      <h1>Star Wars Van</h1>
       <img src="img/star-wars.jpg" alt="star wars van"/>
     </section>
 
 const SnakeAndWolf = () =>
     <section className="snake-and-wolf">
-      <h1>Snake and Wolf Vans</h1>
+      <h1>Snake and Wolf Van</h1>
       <img src="img/wolf-van.jpg" alt="snake and wolf van"/>
     </section>
 

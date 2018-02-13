@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import './index.css'
 
 import {
-  HashRouter,
+  BrowserRouter,
   Route,
   Switch,
   Redirect
@@ -17,7 +17,7 @@ import {
 } from './pages'
 
 render(
-  <HashRouter>
+  <BrowserRouter>
     <div className="main">
       <Switch>
         <Route exact path="/" component={Home} />
@@ -28,6 +28,6 @@ render(
         <Route component={Whoops404} />
       </Switch>
     </div>
-  </HashRouter>,
+  </BrowserRouter>,
   document.getElementById('root')
 )

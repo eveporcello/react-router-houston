@@ -10,7 +10,7 @@ export const MainMenu = () =>
 
 export const VanMenu = () =>
     <div className="van-menu">
-        <NavLink to="/vans">[Horse Vans]</NavLink>
-        <NavLink to="/vans/star-wars">[Star Wars Vans]</NavLink>
-        <NavLink to="/vans/snake-and-wolf">[Snake and Wolf Vans]</NavLink>
+        <NavLink to="/vans">[Horse Van]</NavLink>
+        <NavLink to="/vans/star-wars">[Star Wars Van]</NavLink>
+        <NavLink to="/vans/snake-and-wolf">[Snake and Wolf Van]</NavLink>
     </div>
