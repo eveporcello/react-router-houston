@@ -5,7 +5,6 @@ export const MainMenu = () =>
     <nav className="main-menu">
         <NavLink to="/">[Home]</NavLink>
         <NavLink to="/vans">[Vans]</NavLink>
-        <NavLink to="/events">[Events]</NavLink>
         <NavLink to="/contact">[Contact Us]</NavLink>
     </nav>
 
