@@ -20,7 +20,7 @@ export const Home = () =>
     <p>- Jerry</p>
     </section>
 
-export const Vans = ({ match }) =>
+export const Vans = ({match}) =>
     <PageTemplate>
         <section className="vans">
             <Route component={VanMenu} />
