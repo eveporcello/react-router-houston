@@ -10,7 +10,7 @@ const PageTemplate = ({children}) =>
 
 export const Home = () =>
     <section className="home">
-        <h1>Jerry's Van Emporium</h1>
+        <h1>Jerrys Van Emporium</h1>
         <nav>
             <Link to="vans">Vans</Link>
             <Link to="contact">Contact Us</Link>
